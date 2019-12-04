@@ -2,8 +2,8 @@ package dataStructureQueue;
 
 public class App {
     public static void main(String[] args) {
-        Queue myQueue = new Queue(5);  //инициализируем линию, структуру данных с количествои элементов
-        myQueue.insert(100); //вставляем числа в эту структуру данных
+        Queue myQueue = new Queue(5);
+        myQueue.insert(100); 
         myQueue.insert(1000);
         myQueue.insert(14);
         myQueue.insert(12);
